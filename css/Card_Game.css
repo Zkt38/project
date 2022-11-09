@@ -1,0 +1,100 @@
+
+.card{
+    width: 100%;
+    height: 100%;
+} 
+
+
+.login_box{
+    animation-name: test;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 100px 0;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+
+}
+
+
+.login_box > div{
+    width: 400px;
+    height: 50px;
+    margin: 50px auto;
+    color: #fff;
+}
+
+.login_box > p{
+    float: left;
+    padding-left: 330px;
+    padding-top: 5px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+}
+.login_box > img{
+    float: right;
+    display: inline;
+    padding-right: 280px;
+    width: 80px;
+    height: 55px;
+}
+
+.login_box > div > span{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.login_box > div > form .username,
+.login_box > div > form .password{
+    width: 100%;
+    height: 35px;
+    border: none;
+    background: transparent;
+    color: #333;
+    outline: none;
+    border-bottom: 1px solid #12B7F5;
+    
+}
+
+.login_box > div > form .button{
+    width: 354px;
+    height: 53px;
+    text-align: center;
+    background-color: #9DDCFF;
+
+}
+
+.log_but{
+
+    padding-left: 20px;
+
+}
+.login_box > div > form .button:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.login_box .register{
+    font-size: 15px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+}
+
+@keyframes test {
+    from{
+        width: 0;
+        height: 0;
+    }
+
+    to{
+        width: 800px;
+        height: 400px;
+    }
+}
